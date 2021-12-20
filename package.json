@@ -1,0 +1,14 @@
+{
+  "name": "jest_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
