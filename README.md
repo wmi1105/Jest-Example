@@ -12,7 +12,7 @@
 - yarn add --deev @types/jest
 
 ```
-package.json setting
+// package.json setting
 {
   ...,
 
@@ -23,14 +23,16 @@ package.json setting
 }
 ```
 
-- yarn test
+```실행
+yarn test
+```
 
 ### ES6 셋팅
 
 - yarn add --dev @babel/preset-env
 
 ```
-babel.config.js
+// babel.config.js
 module.exports = {
   presets:["@babel/preset-env"]
 }
@@ -41,7 +43,7 @@ module.exports = {
 - yarn add --dev @babel/preset-typescript
 
 ```
-babel.config.js
+// babel.config.js
 module.exports = {
   presets:["@babel/preset-env", "@babel/preset-typescript"]
 }
