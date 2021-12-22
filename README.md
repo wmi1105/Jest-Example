@@ -2,6 +2,8 @@
 
 ## setting
 
+### normal
+
 - yarn add jest
 - yarn add --deev @types/jest
 
@@ -21,7 +23,7 @@
 yarn test
 ```
 
-### ES6 셋팅
+### ES6
 
 - yarn add --dev @babel/preset-env
 
@@ -32,7 +34,7 @@ module.exports = {
 }
 ```
 
-### typescript 셋팅
+### TypeScript
 
 - yarn add --dev @babel/preset-typescript
 
